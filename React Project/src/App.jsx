@@ -4,13 +4,15 @@ import Counter from './pages/Counter.jsx'
 import Modal from './pages/Modal.jsx'
 import Route from './pages/Route.jsx'
 import Root from './pages/Root.jsx'
+import Todo from './pages/Todo.jsx'
 function App() {
 return(
   <>
   {/* <SignUpLogin/> */}
   {/* <Counter/> */}
   {/* <Modal/> */}
-  <Root/>
+  {/* <Root/> */}
+  <Todo/>
   </>
 )
 }

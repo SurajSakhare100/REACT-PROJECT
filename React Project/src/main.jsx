@@ -9,32 +9,33 @@ import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
 import User from './pages/User.jsx'
 
-const router=createBrowserRouter([{
-  path:"/",
-  element:<Root/>,
-  children:[
-    {
-    path:'home',
-    element:<Route/>
-   },
-    {
-    path:'about',
-    element:<About/>
-   }
-   ,
-    {
-    path:'contact',
-    element:<Contact/>
-   }
-   ,
-    {
-    path:'user/:userId',
-    element:<User/>
-   }
-]
-}])
+// const router=createBrowserRouter([{
+//   path:"/",
+//   element:<Root/>,
+//   children:[
+//     {
+//     path:'home',
+//     element:<Route/>
+//    },
+//     {
+//     path:'about',
+//     element:<About/>
+//    }
+//    ,
+//     {
+//     path:'contact',
+//     element:<Contact/>
+//    }
+//    ,
+//     {
+//     path:'user/:userId',
+//     element:<User/>
+//    }
+// ]
+// }])
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    {/* <RouterProvider router={router} /> */}
+    <App/>
   </React.StrictMode>,
 )
